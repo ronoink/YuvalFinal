@@ -1294,6 +1294,7 @@ GameObject:
   - component: {fileID: 531964632}
   - component: {fileID: 531964631}
   - component: {fileID: 531964633}
+  - component: {fileID: 531964634}
   m_Layer: 5
   m_Name: BlueShirt
   m_TagString: Untagged
@@ -1414,6 +1415,34 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 531964634}
+        m_TargetAssemblyTypeName: Offbutton, Assembly-CSharp
+        m_MethodName: OffC
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &531964634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531964629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19bc8b67b91fa64dbd42d92d30925b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  a: {fileID: 1046597635}
+  b: {fileID: 940138318}
+  c: {fileID: 531964629}
+  d: {fileID: 1393738617}
 --- !u!1 &547222071
 GameObject:
   m_ObjectHideFlags: 0
@@ -2043,6 +2072,7 @@ GameObject:
   - component: {fileID: 596744789}
   - component: {fileID: 596744791}
   - component: {fileID: 596744790}
+  - component: {fileID: 596744793}
   - component: {fileID: 596744792}
   m_Layer: 5
   m_Name: BlueSkirt
@@ -2164,6 +2194,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 596744793}
+        m_TargetAssemblyTypeName: OffLower, Assembly-CSharp
+        m_MethodName: OffE
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &596744793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596744788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da46dfd0c247d4b4f9af8bd9eef2a66b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  e: {fileID: 596744788}
+  f: {fileID: 1667741845}
+  g: {fileID: 1788601913}
 --- !u!1 &663785232
 GameObject:
   m_ObjectHideFlags: 0
@@ -2716,6 +2773,7 @@ GameObject:
   - component: {fileID: 940138321}
   - component: {fileID: 940138320}
   - component: {fileID: 940138322}
+  - component: {fileID: 940138323}
   m_Layer: 5
   m_Name: BlackShirt
   m_TagString: Untagged
@@ -2836,6 +2894,34 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 940138323}
+        m_TargetAssemblyTypeName: Offbutton, Assembly-CSharp
+        m_MethodName: OffB
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &940138323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940138318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19bc8b67b91fa64dbd42d92d30925b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  a: {fileID: 1046597635}
+  b: {fileID: 940138318}
+  c: {fileID: 531964629}
+  d: {fileID: 1393738617}
 --- !u!1 &1046597635
 GameObject:
   m_ObjectHideFlags: 0
@@ -2848,6 +2934,7 @@ GameObject:
   - component: {fileID: 1046597638}
   - component: {fileID: 1046597637}
   - component: {fileID: 1046597639}
+  - component: {fileID: 1046597640}
   m_Layer: 5
   m_Name: RedDress
   m_TagString: Untagged
@@ -2968,6 +3055,34 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1046597640}
+        m_TargetAssemblyTypeName: Offbutton, Assembly-CSharp
+        m_MethodName: OffA
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1046597640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046597635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19bc8b67b91fa64dbd42d92d30925b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  a: {fileID: 1046597635}
+  b: {fileID: 940138318}
+  c: {fileID: 531964629}
+  d: {fileID: 1393738617}
 --- !u!1 &1109976303
 GameObject:
   m_ObjectHideFlags: 0
@@ -3352,6 +3467,7 @@ GameObject:
   - component: {fileID: 1393738620}
   - component: {fileID: 1393738619}
   - component: {fileID: 1393738621}
+  - component: {fileID: 1393738622}
   m_Layer: 5
   m_Name: YellowShirt
   m_TagString: Untagged
@@ -3472,6 +3588,34 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1393738622}
+        m_TargetAssemblyTypeName: Offbutton, Assembly-CSharp
+        m_MethodName: OffD
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1393738622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393738617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19bc8b67b91fa64dbd42d92d30925b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  a: {fileID: 1046597635}
+  b: {fileID: 940138318}
+  c: {fileID: 531964629}
+  d: {fileID: 1393738617}
 --- !u!1 &1402495859
 GameObject:
   m_ObjectHideFlags: 0
@@ -3895,7 +4039,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1453041460}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.09, z: 0}
+  m_LocalPosition: {x: -0.04, y: -0.06, z: 0}
   m_LocalScale: {x: 0.9978156, y: 0.9978156, z: 0.9978156}
   m_Children: []
   m_Father: {fileID: 1886557514}
@@ -3915,10 +4059,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 0}
   spriteArray:
-  - {fileID: 6047281427951581600, guid: 01873238dd821464797dbfd54c126e24, type: 3}
-  - {fileID: -6666255622788771325, guid: 01873238dd821464797dbfd54c126e24, type: 3}
+  - {fileID: 21300000, guid: 7c93c7105c83343dfb9f3bfad4bf2e05, type: 3}
+  - {fileID: 21300000, guid: 8dbe8d95fa9a348eb92d00bc9b0f2ff6, type: 3}
   - {fileID: 7474268227974760590, guid: 01873238dd821464797dbfd54c126e24, type: 3}
-  - {fileID: -8331783406951148883, guid: 01873238dd821464797dbfd54c126e24, type: 3}
+  - {fileID: 21300000, guid: cdb3ef21ee87146168d690115d566a36, type: 3}
 --- !u!1 &1497691825
 GameObject:
   m_ObjectHideFlags: 0
@@ -4007,6 +4151,7 @@ GameObject:
   - component: {fileID: 1667741846}
   - component: {fileID: 1667741848}
   - component: {fileID: 1667741847}
+  - component: {fileID: 1667741850}
   - component: {fileID: 1667741849}
   m_Layer: 5
   m_Name: GreenShorts
@@ -4128,6 +4273,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1667741850}
+        m_TargetAssemblyTypeName: OffLower, Assembly-CSharp
+        m_MethodName: OffF
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1667741850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667741845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da46dfd0c247d4b4f9af8bd9eef2a66b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  e: {fileID: 596744788}
+  f: {fileID: 1667741845}
+  g: {fileID: 1788601913}
 --- !u!1 &1729335613
 GameObject:
   m_ObjectHideFlags: 0
@@ -4249,6 +4421,7 @@ GameObject:
   - component: {fileID: 1788601916}
   - component: {fileID: 1788601915}
   - component: {fileID: 1788601917}
+  - component: {fileID: 1788601918}
   m_Layer: 5
   m_Name: PurplePants
   m_TagString: Untagged
@@ -4369,6 +4542,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1788601918}
+        m_TargetAssemblyTypeName: OffLower, Assembly-CSharp
+        m_MethodName: OffG
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1788601918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788601913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da46dfd0c247d4b4f9af8bd9eef2a66b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  e: {fileID: 596744788}
+  f: {fileID: 1667741845}
+  g: {fileID: 1788601913}
 --- !u!1 &1886557512
 GameObject:
   m_ObjectHideFlags: 0
