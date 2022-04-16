@@ -512,7 +512,7 @@ GameObject:
   - component: {fileID: 396836164}
   - component: {fileID: 396836163}
   m_Layer: 5
-  m_Name: Hills (1)
+  m_Name: Sneakers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -584,6 +584,18 @@ MonoBehaviour:
       - m_Target: {fileID: 413850084}
         m_TargetAssemblyTypeName: Legs, Assembly-CSharp
         m_MethodName: Sneakers
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1222585722}
+        m_TargetAssemblyTypeName: Scene1Win, Assembly-CSharp
+        m_MethodName: pressC1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1062,6 +1074,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1222585722}
+        m_TargetAssemblyTypeName: Scene1Win, Assembly-CSharp
+        m_MethodName: pressB0
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &531964634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1195,6 +1219,18 @@ MonoBehaviour:
       - m_Target: {fileID: 413850084}
         m_TargetAssemblyTypeName: Legs, Assembly-CSharp
         m_MethodName: Flipflops
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1222585722}
+        m_TargetAssemblyTypeName: Scene1Win, Assembly-CSharp
+        m_MethodName: pressC0
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1619,6 +1655,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1222585722}
+        m_TargetAssemblyTypeName: Scene1Win, Assembly-CSharp
+        m_MethodName: pressA0
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &596744793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1856,6 +1904,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1222585722}
+        m_TargetAssemblyTypeName: Scene1Win, Assembly-CSharp
+        m_MethodName: pressB0
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &940138323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2008,6 +2068,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1046597640}
         m_TargetAssemblyTypeName: Offbutton, Assembly-CSharp
         m_MethodName: OffA
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1222585722}
+        m_TargetAssemblyTypeName: Scene1Win, Assembly-CSharp
+        m_MethodName: pressB1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2380,6 +2452,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195500871}
   m_CullTransparentMesh: 1
+--- !u!1 &1222585721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1222585723}
+  - component: {fileID: 1222585722}
+  m_Layer: 0
+  m_Name: Win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1222585722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222585721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e39b0142d53d3c47a00ec8857b321ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  a: 0
+  b: 0
+  c: 0
+  winner: 0
+  three: 3
+--- !u!4 &1222585723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222585721}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.34, y: 0.31999993, z: 0.00000023841858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1393738617
 GameObject:
   m_ObjectHideFlags: 0
@@ -2516,6 +2636,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1393738622}
         m_TargetAssemblyTypeName: Offbutton, Assembly-CSharp
         m_MethodName: OffD
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1222585722}
+        m_TargetAssemblyTypeName: Scene1Win, Assembly-CSharp
+        m_MethodName: pressB0
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2918,6 +3050,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1222585722}
+        m_TargetAssemblyTypeName: Scene1Win, Assembly-CSharp
+        m_MethodName: pressC0
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1576011840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3101,6 +3245,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1222585722}
+        m_TargetAssemblyTypeName: Scene1Win, Assembly-CSharp
+        m_MethodName: pressA0
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1667741850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3252,6 +3408,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1788601918}
         m_TargetAssemblyTypeName: OffLower, Assembly-CSharp
         m_MethodName: OffG
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1222585722}
+        m_TargetAssemblyTypeName: Scene1Win, Assembly-CSharp
+        m_MethodName: pressA1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
