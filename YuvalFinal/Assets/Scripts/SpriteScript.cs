@@ -28,19 +28,19 @@ public class SpriteScript : MonoBehaviour
         {
             animator.SetInteger("Direction", 0);
         }
-        else if (myAgent.velocity.z > .5f)
+        else if (myAgent.velocity.z > .8f)
         {
             animator.SetInteger("Direction", 1);
         }  
-         else if (myAgent.velocity.z < -.5f)
+         else if (myAgent.velocity.z < -.8f)
         {
             animator.SetInteger("Direction", 2);
         }  
-        else if (myAgent.velocity.x > .5f)
+        else if (myAgent.velocity.x > .3f)
         {
             animator.SetInteger("Direction", 3);
         }  
-        else if (myAgent.velocity.x < -.5f)
+        else if (myAgent.velocity.x < -.3f)
         {
             animator.SetInteger("Direction", 4);
         }
