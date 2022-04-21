@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: bed_animation
+  m_Name: Bed
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -21,14 +21,14 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: 838725614fa5c417db12ecbbab4c9c7a, type: 3}
-    - time: 0.9166667
+    - time: 0.41666666
       value: {fileID: 21300000, guid: e7aecf317f8da4e5793303b22a526b03, type: 3}
-    - time: 1.8166667
+    - time: 0.9166667
       value: {fileID: 21300000, guid: 427f980da6efc4fb289a1d392d1689ea, type: 3}
-    - time: 2.6833334
+    - time: 1.4333333
       value: {fileID: 21300000, guid: 7653783205cb8485895e6526f8c050ec, type: 3}
-    - time: 3.6
-      value: {fileID: 21300000, guid: 838725614fa5c417db12ecbbab4c9c7a, type: 3}
+    - time: 1.85
+      value: {fileID: 21300000, guid: 7653783205cb8485895e6526f8c050ec, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -52,13 +52,13 @@ AnimationClip:
     - {fileID: 21300000, guid: e7aecf317f8da4e5793303b22a526b03, type: 3}
     - {fileID: 21300000, guid: 427f980da6efc4fb289a1d392d1689ea, type: 3}
     - {fileID: 21300000, guid: 7653783205cb8485895e6526f8c050ec, type: 3}
-    - {fileID: 21300000, guid: 838725614fa5c417db12ecbbab4c9c7a, type: 3}
+    - {fileID: 21300000, guid: 7653783205cb8485895e6526f8c050ec, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 3.6166666
+    m_StopTime: 1.8666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
