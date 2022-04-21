@@ -24,5 +24,17 @@ public class LowerBody : MonoBehaviour
         this.GetComponent<SpriteRenderer>().sprite = spriteArray[2];
     }
     
+    public void BlackPants()
+    {
+        print("BlackPants");
+        this.GetComponent<SpriteRenderer>().sprite = spriteArray[3];
+    }
+
+    public void ColorPants()
+    {
+        print("ColorPants");
+        this.GetComponent<SpriteRenderer>().sprite = spriteArray[4];
+    }
+
     
 }
