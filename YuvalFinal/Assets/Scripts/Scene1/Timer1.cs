@@ -28,6 +28,7 @@ public class Timer1 : MonoBehaviour
                 timeRemaining = 0;
                 timerIsRunning = false;
             }
+            
         }
     }
     void DisplayTime(float timeToDisplay)
