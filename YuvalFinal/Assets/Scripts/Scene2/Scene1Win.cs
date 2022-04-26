@@ -15,6 +15,8 @@ public class Scene1Win : MonoBehaviour
     public Sprite happy;
     public GameObject wintext;
     public Animator anim;
+    public Animator anim2;
+    public GameObject bubble2;
     void Start()
     {
         
@@ -31,6 +33,8 @@ public class Scene1Win : MonoBehaviour
             character.GetComponent<SpriteRenderer> ().sprite = happy;
             wintext.SetActive(true);
             anim.SetBool("happy" , true);
+            bubble2.gameObject.SetActive(true);
+            anim2.SetBool("bubble2" , true );
         }
 
     }
