@@ -2612,6 +2612,7 @@ GameObject:
   - component: {fileID: 1222585723}
   - component: {fileID: 1222585722}
   - component: {fileID: 1222585724}
+  - component: {fileID: 1222585725}
   m_Layer: 0
   m_Name: Win
   m_TagString: Untagged
@@ -2672,6 +2673,18 @@ MonoBehaviour:
   timerRef: {fileID: 454718908}
   time123: 0
   Lose: {fileID: 1549804630}
+--- !u!114 &1222585725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222585721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6477c6cb1ff9d05488980c4e1e1a76fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1286998967
 GameObject:
   m_ObjectHideFlags: 0
@@ -4589,7 +4602,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2081358420}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1222585725}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: changescene1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2081358420
 MonoBehaviour:
   m_ObjectHideFlags: 0
