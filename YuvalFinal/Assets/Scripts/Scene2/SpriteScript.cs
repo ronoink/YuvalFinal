@@ -15,11 +15,11 @@ public class SpriteScript : MonoBehaviour
     public GameObject player;
     
     
-    public Vector3 up1 = new Vector3(1.15f, 1.15f, 1.15f);
-    public Vector3 midup1 = new Vector3(1.25f, 1.25f, 1.25f);
-    public Vector3 mid1 = new Vector3(1.35f, 1.35f, 1.35f);
-    public Vector3 midlow1 = new Vector3(1.45f, 1.45f, 1.45f);
-    public Vector3 low1 = new Vector3(1.55f, 1.55f, 1.55f);
+    public Vector3 up1 = new Vector3(0.5f, 0.5f, 0.5f);
+    public Vector3 midup1 = new Vector3(0.55f, 0.55f, 0.55f);
+    public Vector3 mid1 = new Vector3(0.6f, 0.6f, 0.6f);
+    public Vector3 midlow1 = new Vector3(0.65f, 0.65f, 0.65f);
+    public Vector3 low1 = new Vector3(0.7f, 0.7f, 0.7f);
     
     
     // Start is called before the first frame update
