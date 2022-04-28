@@ -1,11 +1,9 @@
-
-
 using System.Collections;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SaveTime : MonoBehaviour
+public class SaveTime2 : MonoBehaviour
 {
     public GameObject timer;
 
@@ -20,7 +18,7 @@ public class SaveTime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeRemains = timer.GetComponent<Timer1>().timeRemaining;
+        timeRemains = timer.GetComponent<Timer2>().timeRemaining;
         print(timeRemains);
     }
 
