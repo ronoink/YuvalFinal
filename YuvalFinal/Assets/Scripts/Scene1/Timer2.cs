@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-public class Timer1 : MonoBehaviour
+public class Timer2 : MonoBehaviour
 {
-    public float timeRemaining = 10;
+    public float timeRemaining = 0 ;
     public bool timerIsRunning = false;
     public TMP_Text timeText;
     private void Start()
     {
+      
         // Starts the timer automatically
         timerIsRunning = true;
+        timeRemaining = PlayerPrefs.GetFloat("SetTimer");
     }
     void Update()
     {
