@@ -33,11 +33,11 @@ public class Move : MonoBehaviour
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-            if (mousePos.x > 1)
+            if (mousePos.x > 0.1f)
             {
                 transform.Translate(moveSpeed,0,0);
             }
-            else if (mousePos.x < -1)
+            else if (mousePos.x < -0.1f)
             {
                 transform.Translate(-moveSpeed,0,0);
             }
