@@ -27,7 +27,11 @@ AnimationClip:
       value: {fileID: 4333283870218021683, guid: 4e6efe73f025342e781fc00e509f4b44, type: 3}
     - time: 1
       value: {fileID: -204359854808501785, guid: 4e6efe73f025342e781fc00e509f4b44, type: 3}
+<<<<<<< HEAD
     - time: 1.3333334
+=======
+    - time: 0.8333333
+>>>>>>> parent of daa6140 (Revert "ג")
       value: {fileID: 9207541054723020084, guid: 4e6efe73f025342e781fc00e509f4b44, type: 3}
     attribute: m_Sprite
     path: 
@@ -58,7 +62,11 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
+<<<<<<< HEAD
     m_StopTime: 1.4166667
+=======
+    m_StopTime: 0.9166666
+>>>>>>> parent of daa6140 (Revert "ג")
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
