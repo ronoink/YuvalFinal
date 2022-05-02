@@ -1,0 +1,47 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Collide : MonoBehaviour
+{
+
+    public GameObject baloon;
+    public GameObject stopHallMove;
+    public Animator playerstopanimation;
+    public Animator characterstopanimation;
+    public Animator baloonAnim;
+    public GameObject PlayerStopMove;
+    public GameObject characterStopMove;
+    
+    
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        baloon.gameObject.SetActive(true);
+        baloonAnim.GetComponent<Animator>().SetBool("BaloonStart" , true);
+        print("collisionok");
+        stopHallMove.GetComponent<MoveBG>().moveSpeed = 0;
+        playerstopanimation.GetComponent<Animator>().SetBool("PlayerStop" , true);
+        PlayerStopMove.GetComponent<Move>().moveSpeed = 0;
+        characterstopanimation.GetComponent<Animator>().SetBool("CharacterStop" , true);
+        characterStopMove.GetComponent<MoveBG>().moveSpeed = 0;
+        
+    }
+    
+
+    
+}

@@ -2503,7 +2503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4253792f6d1717f48a6b407651dad149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.025
+  moveSpeed: 0.1
 --- !u!1 &1825688948
 GameObject:
   m_ObjectHideFlags: 0
@@ -2991,12 +2991,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 7
-  m_Sprite: {fileID: -2690792559708188323, guid: 4e6efe73f025342e781fc00e509f4b44, type: 3}
+  m_Sprite: {fileID: -4571828015118065507, guid: a74f9d7c6eb02483db02f40812cd2f17, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.55, y: 1.22}
+  m_Size: {x: 1.23, y: 2.93}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
