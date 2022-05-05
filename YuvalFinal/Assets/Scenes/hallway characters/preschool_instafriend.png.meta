@@ -142,111 +142,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: preschool_instafriend_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 355
-        width: 139
-        height: 301
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7295af267c8c4640800000000000000
-      internalID: 5065578120118375035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: preschool_instafriend_1
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 355
-        width: 139
-        height: 301
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e1cdd88d3649c2b0800000000000000
-      internalID: -5563838634536353309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: preschool_instafriend_2
-      rect:
-        serializedVersion: 2
-        x: 483
-        y: 355
-        width: 130
-        height: 301
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10cb3a5c07d847820800000000000000
-      internalID: 2915110374307249153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: preschool_instafriend_3
-      rect:
-        serializedVersion: 2
-        x: 751
-        y: 358
-        width: 130
-        height: 298
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2245a6566bbad8f0800000000000000
-      internalID: -514893159165771218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: preschool_instafriend_4
-      rect:
-        serializedVersion: 2
-        x: 1019
-        y: 354
-        width: 130
-        height: 302
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcd1dcdd01d4acef0800000000000000
-      internalID: -87172507944280625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: preschool_instafriend_5
       rect:
         serializedVersion: 2
@@ -263,48 +158,6 @@ TextureImporter:
       bones: []
       spriteID: 7476bc5f556b3c420800000000000000
       internalID: 2649161486136207175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: preschool_instafriend_6
-      rect:
-        serializedVersion: 2
-        x: 1252
-        y: 359
-        width: 130
-        height: 297
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33288e8a4aa4f52f0800000000000000
-      internalID: -981984122674576845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: preschool_instafriend_7
-      rect:
-        serializedVersion: 2
-        x: 1523
-        y: 354
-        width: 139
-        height: 302
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41773cb2d7b0e2100800000000000000
-      internalID: 85018075199665940
       vertices: []
       indices: 
       edges: []
@@ -377,7 +230,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 748
-        y: 19
+        y: 16
         width: 128
         height: 308
       alignment: 0
@@ -410,27 +263,6 @@ TextureImporter:
       bones: []
       spriteID: 5d5cc6bb7cccaf8b0800000000000000
       internalID: -5117552868338121259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: preschool_instafriend_13
-      rect:
-        serializedVersion: 2
-        x: 1209
-        y: 102
-        width: 7
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 316fceaebe34a13f0800000000000000
-      internalID: -929355692560812525
       vertices: []
       indices: 
       edges: []

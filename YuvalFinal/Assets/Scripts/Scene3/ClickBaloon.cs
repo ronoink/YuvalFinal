@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class ClickBaloon : MonoBehaviour
 {
@@ -18,10 +19,12 @@ public class ClickBaloon : MonoBehaviour
        
     }
 
-    public void startBaloonAnim()
+    private void OnMouseUp()
     {
-        print("baloonOK");
-       // baloonanim.GetComponent<Animator>().SetInteger("Baloon" , +1);
-        
+        {
+
+          print("YOOOOOOOO");
+            
+        }
     }
 }

@@ -35,7 +35,7 @@ public class Collide : MonoBehaviour
         baloonAnim.GetComponent<Animator>().SetBool("BaloonStart" , true);
         print("collisionok");
         stopHallMove.GetComponent<MoveBG>().moveSpeed = 0;
-        playerstopanimation.GetComponent<Animator>().SetBool("PlayerStop" , true);
+      //  playerstopanimation.GetComponent<Animator>().SetInteger("PlayerStop" , 0);
         PlayerStopMove.GetComponent<Move>().moveSpeed = 0;
         characterstopanimation.GetComponent<Animator>().SetBool("CharacterStop" , true);
         characterStopMove.GetComponent<MoveBG>().moveSpeed = 0;

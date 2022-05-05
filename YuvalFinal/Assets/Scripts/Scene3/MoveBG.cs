@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,10 @@ using UnityEngine;
 public class MoveBG : MonoBehaviour
 {
     public float moveSpeed;
+    public GameObject startHallMove;
+    public Animator startPlayeranim;
+    public GameObject startPlayerMove;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -12,8 +17,16 @@ public class MoveBG : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
         transform.Translate(0,-moveSpeed ,0);
     }
+
+    public void StartBg()
+    {
+        startHallMove.GetComponent<MoveBG>().moveSpeed = 0.1f ;
+        startPlayeranim.GetComponent<Animator>().SetBool("PlayerStopAnim" , false);
+        startPlayerMove.GetComponent<Move>().moveSpeed = 5f;
+    }
+    
 }

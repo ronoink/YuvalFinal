@@ -18,12 +18,12 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        TouchMove();
     }
 
     private void FixedUpdate()
     {
-        TouchMove();
+        
 
     }
 
@@ -35,11 +35,11 @@ public class Move : MonoBehaviour
 
             if (mousePos.x > 0.1f)
             {
-                transform.Translate(moveSpeed,0,0);
+                transform.Translate(moveSpeed * Time.deltaTime,0,0 );
             }
             else if (mousePos.x < -0.1f)
             {
-                transform.Translate(-moveSpeed,0,0);
+                transform.Translate(-moveSpeed  * Time.deltaTime,0,0);
             }
             
         }
