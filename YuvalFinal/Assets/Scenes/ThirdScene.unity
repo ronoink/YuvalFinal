@@ -307,7 +307,6 @@ GameObject:
   m_Component:
   - component: {fileID: 98084555}
   - component: {fileID: 98084559}
-  - component: {fileID: 98084558}
   - component: {fileID: 98084557}
   m_Layer: 0
   m_Name: Baloon (1)
@@ -349,18 +348,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &98084558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98084554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cde5cba42ba1274792f7fc0976f4e0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &98084559
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3666,7 +3653,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526133184}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ef69363df24a1bd4eacec28a86c10898, type: 2}
   m_CullingMode: 0
@@ -4800,7 +4787,7 @@ MonoBehaviour:
   stopHallMove: {fileID: 1809106419}
   playerstopanimation: {fileID: 1986697505}
   characterstopanimation: {fileID: 1872678720}
-  baloonAnim: {fileID: 1256057469}
+  baloonAnim: {fileID: 98084557}
   PlayerStopMove: {fileID: 1986697504}
   characterStopMove: {fileID: 9203119012667147983}
 --- !u!1 &1887207283
