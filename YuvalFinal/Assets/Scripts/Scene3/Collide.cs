@@ -6,9 +6,11 @@ using UnityEngine;
 public class Collide : MonoBehaviour
 {
 
-    public GameObject baloon;
+    public GameObject baloonCharacter;
+    public GameObject baloonPlayer;
+    public Animator baloonAnimPlayer;
     public GameObject stopHallMove;
-    public Animator playerstopanimation;
+    public Animator playerStopanim;
     public Animator characterstopanimation;
     public Animator baloonAnim;
     public GameObject PlayerStopMove;
@@ -31,7 +33,7 @@ public class Collide : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
-        baloon.gameObject.SetActive(true);
+        baloonCharacter.gameObject.SetActive(true);
         baloonAnim.GetComponent<Animator>().SetBool("BaloonStart" , true);
         print("collisionok");
         stopHallMove.GetComponent<MoveBG>().moveSpeed = 0;
@@ -39,6 +41,10 @@ public class Collide : MonoBehaviour
         PlayerStopMove.GetComponent<Move>().moveSpeed = 0;
         characterstopanimation.GetComponent<Animator>().SetBool("CharacterStop" , true);
         characterStopMove.GetComponent<MoveBG>().moveSpeed = 0;
+        
+        baloonPlayer.gameObject.SetActive(true);
+        baloonAnimPlayer.GetComponent<Animator>().SetBool("BaloonStart" , true);
+        playerStopanim.GetComponent<Animator>().SetBool("PlayerStopAnim" , true);
         
     }
     

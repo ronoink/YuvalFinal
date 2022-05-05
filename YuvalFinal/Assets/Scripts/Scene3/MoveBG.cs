@@ -9,6 +9,7 @@ public class MoveBG : MonoBehaviour
     public GameObject startHallMove;
     public Animator startPlayeranim;
     public GameObject startPlayerMove;
+    public Animator baloonAnimStop; 
     
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,7 @@ public class MoveBG : MonoBehaviour
         startHallMove.GetComponent<MoveBG>().moveSpeed = 0.1f ;
         startPlayeranim.GetComponent<Animator>().SetBool("PlayerStopAnim" , false);
         startPlayerMove.GetComponent<Move>().moveSpeed = 5f;
+        baloonAnimStop.GetComponent<Animator>().SetBool("BaloonStart" , false);
     }
     
 }

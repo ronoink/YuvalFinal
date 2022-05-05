@@ -1,3 +1,6 @@
+
+/*
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -25,6 +28,7 @@ public class CollidePlayer : MonoBehaviour
         
     }
 
+    /*
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Character")
@@ -32,17 +36,17 @@ public class CollidePlayer : MonoBehaviour
         baloonAnim.GetComponent<Animator>().SetBool("BaloonStart" , true);
         playerStopanim.GetComponent<Animator>().SetBool("PlayerStopAnim" , true);
         print("playerCollideOK");
-       
+   
        
        // characterstopanimation.GetComponent<Animator>().SetBool("CharacterStop" , true);
-        
+         
     }
-
+ */
 
   /*  public void PlayerStart()
     {
         playerstartanimation.GetComponent<Animator>().SetBool("PlayerStop" , true);
         StartMove.GetComponent<Move>().moveSpeed = 1;
     }
+    }
   */  
-}
