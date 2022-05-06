@@ -25,7 +25,7 @@ public class MoveBG : MonoBehaviour
 
     public void StartBg()
     {
-        startHallMove.GetComponent<MoveBG>().moveSpeed = 0.1f ;
+        startHallMove.GetComponent<MoveBG>().moveSpeed = 0.07f ;
         startPlayeranim.GetComponent<Animator>().SetBool("PlayerStopAnim" , false);
         startPlayerMove.GetComponent<Move>().moveSpeed = 5f;
         baloonAnimStop.GetComponent<Animator>().SetBool("BaloonStart" , false);
