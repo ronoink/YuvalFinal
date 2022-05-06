@@ -33,18 +33,21 @@ public class Collide : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
-        baloonCharacter.gameObject.SetActive(true);
-        baloonAnim.GetComponent<Animator>().SetBool("BaloonStart" , true);
-        print("collisionok");
-        stopHallMove.GetComponent<MoveBG>().moveSpeed = 0;
-      //  playerstopanimation.GetComponent<Animator>().SetInteger("PlayerStop" , 0);
-        PlayerStopMove.GetComponent<Move>().moveSpeed = 0;
-        characterstopanimation.GetComponent<Animator>().SetBool("CharacterStop" , true);
-        characterStopMove.GetComponent<MoveBG>().moveSpeed = 0;
+        {
+            baloonCharacter.gameObject.SetActive(true);
+            baloonAnim.GetComponent<Animator>().SetBool("BaloonStart" , true);
+            print("collisionok");
+            stopHallMove.GetComponent<MoveBG>().moveSpeed = 0;
+            //  playerstopanimation.GetComponent<Animator>().SetInteger("PlayerStop" , 0);
+            PlayerStopMove.GetComponent<Move>().moveSpeed = 0;
+            characterstopanimation.GetComponent<Animator>().SetBool("CharacterStop" , true);
+            characterStopMove.GetComponent<MoveBG>().moveSpeed = 0;
         
-        baloonPlayer.gameObject.SetActive(true);
-        baloonAnimPlayer.GetComponent<Animator>().SetBool("BaloonStart" , true);
-        playerStopanim.GetComponent<Animator>().SetBool("PlayerStopAnim" , true);
+            baloonPlayer.gameObject.SetActive(true);
+            baloonAnimPlayer.GetComponent<Animator>().SetBool("BaloonStart" , true);
+            playerStopanim.GetComponent<Animator>().SetBool("PlayerStopAnim" , true);    
+        }
+
         
     }
     
