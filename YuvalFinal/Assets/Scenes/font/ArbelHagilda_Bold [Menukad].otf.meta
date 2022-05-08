@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 6d069be55445f461f9d6026c48aa81fc
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - ArbelHagilda
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 08cc610d5a5f0496da700ffae8c32933, type: 3}
+  - {fileID: 12800000, guid: 92075ebe0dade4e7e824d7eade73d3f9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

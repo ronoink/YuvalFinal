@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: f502dac6c0cfc48168a3d96bc8b65ac3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -821875058046049739
+    second: Lecturer and Pakah Corona_0
+  - first:
+      213: 2910254842464491902
+    second: Lecturer and Pakah Corona_1
+  - first:
+      213: -3062429163383525323
+    second: Lecturer and Pakah Corona_2
+  - first:
+      213: -6013782399008504163
+    second: Lecturer and Pakah Corona_3
+  - first:
+      213: -3215273870048061283
+    second: Lecturer and Pakah Corona_4
+  - first:
+      213: 9075287320433120849
+    second: Lecturer and Pakah Corona_5
+  - first:
+      213: 6118872935943080201
+    second: Lecturer and Pakah Corona_6
+  - first:
+      213: 1152660540751394084
+    second: Lecturer and Pakah Corona_7
+  - first:
+      213: -7860274860257056889
+    second: Lecturer and Pakah Corona_8
+  - first:
+      213: 3926392641231212877
+    second: Lecturer and Pakah Corona_9
+  - first:
+      213: -6886776098153112483
+    second: Lecturer and Pakah Corona_10
+  - first:
+      213: 2190847760715595910
+    second: Lecturer and Pakah Corona_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lecturer and Pakah Corona_0
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 773
+        width: 108
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532696b3dfc1894f0800000000000000
+      internalID: -821875058046049739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lecturer and Pakah Corona_1
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 773
+        width: 109
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79d4fa2c5d436820800000000000000
+      internalID: 2910254842464491902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lecturer and Pakah Corona_2
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 768
+        width: 114
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5307abeb6e01085d0800000000000000
+      internalID: -3062429163383525323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lecturer and Pakah Corona_3
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 764
+        width: 113
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d960a9e35c0ca8ca0800000000000000
+      internalID: -6013782399008504163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lecturer and Pakah Corona_4
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 768
+        width: 124
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d989030537d0163d0800000000000000
+      internalID: -3215273870048061283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lecturer and Pakah Corona_5
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 768
+        width: 120
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156d5092cb5e1fd70800000000000000
+      internalID: 9075287320433120849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lecturer and Pakah Corona_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 325
+        width: 131
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90983ac148a9ae450800000000000000
+      internalID: 6118872935943080201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lecturer and Pakah Corona_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 325
+        width: 131
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425b81e97a21fff00800000000000000
+      internalID: 1152660540751394084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lecturer and Pakah Corona_8
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 321
+        width: 131
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787e17df8a1bae290800000000000000
+      internalID: -7860274860257056889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lecturer and Pakah Corona_9
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 321
+        width: 131
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d415b45ed495d7630800000000000000
+      internalID: 3926392641231212877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lecturer and Pakah Corona_10
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 310
+        width: 131
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cdeed50a14d60a0800000000000000
+      internalID: -6886776098153112483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lecturer and Pakah Corona_11
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 310
+        width: 131
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680c9664e64776e10800000000000000
+      internalID: 2190847760715595910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
