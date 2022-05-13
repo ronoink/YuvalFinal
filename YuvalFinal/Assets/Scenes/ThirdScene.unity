@@ -17853,7 +17853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4253792f6d1717f48a6b407651dad149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.05
+  moveSpeed: 0.06
   startHallMove: {fileID: 1809106419}
   startPlayeranim: {fileID: 1986697505}
   startPlayerMove: {fileID: 1986697504}
