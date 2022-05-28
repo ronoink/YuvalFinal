@@ -5,10 +5,15 @@ using UnityEngine;
 
 public class IsOk1 : MonoBehaviour
 {
-  public void OnTriggerEnter2D(Collider2D other)
+
+  public GameObject solution;
+  public int one = 1;
+ 
+public void OnTriggerEnter2D(Collider2D other)
   {
     if (other.gameObject.CompareTag("Word1") )
     {
+      solution.GetComponent<Solution>().solution = one;
       print("YAY !!!!!");
     }
   }
@@ -17,6 +22,7 @@ public class IsOk1 : MonoBehaviour
   {
     if (other.gameObject.CompareTag("Word1") )
     {
+      solution.GetComponent<Solution>().solution -= one;
       print("WOOOO !!!!!");
     }
   }

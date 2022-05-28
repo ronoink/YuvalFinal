@@ -5,10 +5,13 @@ using UnityEngine;
 
 public class IsOk3 : MonoBehaviour
 {
+  public GameObject solution;
+  public int one = 1;
   public void OnTriggerEnter2D(Collider2D other)
   {
     if (other.gameObject.CompareTag("Word3") )
     {
+      solution.GetComponent<Solution>().solution += one;
       print("YAY3 !!!!!");
     }
    }
@@ -17,6 +20,7 @@ public class IsOk3 : MonoBehaviour
   {
     if (other.gameObject.CompareTag("Word3") )
     {
+      solution.GetComponent<Solution>().solution -= one;
       print("WOOOO3 !!!!!");
     }
 
