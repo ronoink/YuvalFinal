@@ -12,6 +12,14 @@ TagManager:
   - Character3
   - Character4
   - Character5
+  - Word1
+  - Word2
+  - Word3
+  - Word4
+  - Word5
+  - Word6
+  - Word7
+  - Word8
   layers:
   - Default
   - TransparentFX
