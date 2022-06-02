@@ -1,7 +1,73 @@
 fileFormatVersion: 2
 guid: 97d42a9a901824c4b838c7ef6d2e1fd6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3046626174259971167
+    second: yard scene 1_0
+  - first:
+      213: 2372727634695208872
+    second: yard scene 1_1
+  - first:
+      213: 2342542155194959557
+    second: yard scene 1_2
+  - first:
+      213: 4078906713134992471
+    second: yard scene 1_3
+  - first:
+      213: -4384106335846973948
+    second: yard scene 1_4
+  - first:
+      213: -1572419005624773651
+    second: yard scene 1_5
+  - first:
+      213: 913189377053101223
+    second: yard scene 1_6
+  - first:
+      213: -4091289360511212595
+    second: yard scene 1_7
+  - first:
+      213: -184514700793067293
+    second: yard scene 1_8
+  - first:
+      213: 6602553110634704566
+    second: yard scene 1_9
+  - first:
+      213: 1393529493760008564
+    second: yard scene 1_10
+  - first:
+      213: 1102351986411777689
+    second: yard scene 1_11
+  - first:
+      213: 4714692411050019836
+    second: yard scene 1_12
+  - first:
+      213: 7266566449899925608
+    second: yard scene 1_13
+  - first:
+      213: 7788953846593081541
+    second: yard scene 1_14
+  - first:
+      213: 4002347803518965316
+    second: yard scene 1_15
+  - first:
+      213: -4189718751174003085
+    second: yard scene 1_16
+  - first:
+      213: 5026591514776081000
+    second: yard scene 1_17
+  - first:
+      213: 1634807690172168927
+    second: yard scene 1_18
+  - first:
+      213: -4912992495570001340
+    second: yard scene 1_19
+  - first:
+      213: -2890607449705824056
+    second: yard scene 1_20
+  - first:
+      213: -8728459300978614532
+    second: yard scene 1_21
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +107,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +141,483 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: yard scene 1_0
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1466
+        width: 142
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abb3dfd2a538b5d0800000000000000
+      internalID: -3046626174259971167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_1
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1572
+        width: 775
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afb2c6663f9de020800000000000000
+      internalID: 2372727634695208872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_2
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1626
+        width: 17
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c606c7cda1628020800000000000000
+      internalID: 2342542155194959557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_3
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1397
+        width: 239
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c0e5c6b003b9830800000000000000
+      internalID: 4078906713134992471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_4
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1516
+        width: 128
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e3d4af3868823c0800000000000000
+      internalID: -4384106335846973948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_5
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1453
+        width: 133
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de399a3de35ad2ae0800000000000000
+      internalID: -1572419005624773651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_6
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1483
+        width: 133
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac09ef66ec4cac00800000000000000
+      internalID: 913189377053101223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1292
+        width: 90
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3e461d002d837c0800000000000000
+      internalID: -4091289360511212595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_8
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1318
+        width: 62
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e844637bd8707df0800000000000000
+      internalID: -184514700793067293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_9
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1292
+        width: 112
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be2802821bf0ab50800000000000000
+      internalID: 6602553110634704566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_10
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1277
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471689bf0bfc65310800000000000000
+      internalID: 1393529493760008564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_11
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1258
+        width: 213
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e25878a475c4f00800000000000000
+      internalID: 1102351986411777689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 418
+        width: 113
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbcdd1b4c3fd6140800000000000000
+      internalID: 4714692411050019836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 401
+        width: 1063
+        height: 877
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8607e0fafa708d460800000000000000
+      internalID: 7266566449899925608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_14
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 280
+        width: 212
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0d71e714ce71c60800000000000000
+      internalID: 7788953846593081541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 150
+        width: 164
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44610583f123b8730800000000000000
+      internalID: 4002347803518965316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_16
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 235
+        width: 143
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376fa7f6ef02bd5c0800000000000000
+      internalID: -4189718751174003085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_17
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 244
+        width: 347
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8629835c95a02c540800000000000000
+      internalID: 5026591514776081000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_18
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 189
+        width: 213
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaf9c0cee000b610800000000000000
+      internalID: 1634807690172168927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_19
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 187
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442e36dfa5b81dbb0800000000000000
+      internalID: -4912992495570001340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_20
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 122
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0cf2fe6df72e7d0800000000000000
+      internalID: -2890607449705824056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yard scene 1_21
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 56
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe17b8d2884ed680800000000000000
+      internalID: -8728459300978614532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
