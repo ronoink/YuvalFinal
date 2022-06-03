@@ -13,7 +13,7 @@ public class Scene1Win : MonoBehaviour
     public int four = 4;
     public GameObject character;
     public Sprite happy;
-    public GameObject wintext;
+   public GameObject wintext;
     public Animator anim;
     public Animator anim2;
     public GameObject bubble2;
@@ -30,11 +30,12 @@ public class Scene1Win : MonoBehaviour
         if (winner == four)
         {
             print("success");
-            character.GetComponent<SpriteRenderer> ().sprite = happy;
+            character.GetComponent<SpriteRenderer> ().sprite = happy; 
             wintext.SetActive(true);
             anim.SetBool("happy" , true);
             bubble2.gameObject.SetActive(true);
             anim2.SetBool("bubble2" , true );
+            Invoke("LaunchProjectile", 2.0f);
         }
 
     }
