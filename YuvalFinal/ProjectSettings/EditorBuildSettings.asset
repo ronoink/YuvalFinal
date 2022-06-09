@@ -9,12 +9,33 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+    path: Assets/Scenes/Scene0/open screen/open scene.unity
+    guid: f8f321c0836254d59af060a939f2bcfe
+  - enabled: 1
+    path: Assets/Scenes/Scene0/intro video/introvideo.unity
+    guid: 919cecde4c3bd4eef8cca4a26f026ec0
+  - enabled: 1
     path: Assets/Scenes/Scene1/FirstScene.unity
     guid: 78653cb683da141c8aa7eacda7be53db
   - enabled: 1
-    path: Assets/Scenes/Scene2/cope second scene.unity
-    guid: 96e381e813a2143e5adab6bfd65aa1d0
+    path: Assets/Scenes/Scene2/SecondScene 1.unity
+    guid: 90d9f0949a35e481e8e2c75f702961ea
+  - enabled: 1
+    path: Assets/Scenes/1-transition 1/transition 1.unity
+    guid: 4fd01ac665fc1404d9b5e3627bd41248
+  - enabled: 1
+    path: Assets/Scenes/2-transition/1 outside.unity
+    guid: a38cb4f622852472396996153fb96a3a
+  - enabled: 1
+    path: Assets/Scenes/2-transition/2 inside.unity
+    guid: cde2a4178bc804d2f99a1e43ef4c0fd3
+  - enabled: 1
+    path: Assets/Scenes/2-transition/3 - intro level.unity
+    guid: 1cd8703a8458744a9a471d687134cfae
   - enabled: 1
     path: Assets/Scenes/Scene3/ThirdScene.unity
     guid: b1e9caf5ca818db4781f566082f5754c
+  - enabled: 1
+    path: Assets/Scenes/Scene4/classroom scene/1-class room examples.unity
+    guid: d79aa74e8a507449a8bd429a167f5764
   m_configObjects: {}

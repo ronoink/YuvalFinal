@@ -27,7 +27,7 @@ public class NextScene : MonoBehaviour
             
             PlayerPrefs.SetFloat("SetTimer2" , timeRemains);
             print("nextScene");
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(4);
 
 
 
