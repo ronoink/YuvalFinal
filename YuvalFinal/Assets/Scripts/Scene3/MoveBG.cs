@@ -23,6 +23,11 @@ public class MoveBG : MonoBehaviour
         transform.Translate(0,-moveSpeed ,0);
     }
 
+    private void Update()
+    {
+       // moveSpeed += 0.000001f;
+    }
+
     public void StartBg()
     {
         startHallMove.GetComponent<MoveBG>().moveSpeed = 0.08f ;

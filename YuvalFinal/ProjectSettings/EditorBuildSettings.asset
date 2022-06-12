@@ -38,4 +38,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene4/1-class room examples.unity
     guid: d79aa74e8a507449a8bd429a167f5764
+  - enabled: 1
+    path: Assets/Scenes/Scene5/0-going down stairs 1.unity
+    guid: 83fbd7e0631794c0d873fbaae8ddf9f8
+  - enabled: 1
+    path: Assets/Scenes/Scene5/1-bridge 1.unity
+    guid: ef2873c41f8e341e4ae1105443ad5334
+  - enabled: 1
+    path: Assets/Scenes/Scene5/yard assets/yard with characters 1.unity
+    guid: 89eb910afc028494890241a57b3deaf6
   m_configObjects: {}
