@@ -65,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene7/0-intro 1.unity
     guid: 3881ae912aa21403b84289c6a7a18144
+  - enabled: 1
+    path: Assets/Scenes/Scene7/lecturer/final scene!.unity
+    guid: 891f84a26c8154d089ea67e7598d2df7
   m_configObjects: {}
