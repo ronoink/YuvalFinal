@@ -123,6 +123,49 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &607055432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 607055434}
+  - component: {fileID: 607055433}
+  m_Layer: 0
+  m_Name: NextScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &607055433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607055432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e730c25f8d3eb874ebbaf8212b91aa59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &607055434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607055432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 945.74963, y: 6769.4834, z: -561.5845}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &774092884
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,6 +443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1512616725}
   - component: {fileID: 1512616724}
+  - component: {fileID: 1512616726}
   m_Layer: 0
   m_Name: timeline going upstairs
   m_TagString: Untagged
@@ -430,6 +474,8 @@ PlayableDirector:
     value: {fileID: 1906649769}
   - key: {fileID: -347050797742055591, guid: 5af15ecca6be04fc89b7079d9a6caf9d, type: 2}
     value: {fileID: 774092888}
+  - key: {fileID: -8631079260489945431, guid: 5af15ecca6be04fc89b7079d9a6caf9d, type: 2}
+    value: {fileID: 1512616723}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1512616725
@@ -446,6 +492,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1512616726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512616723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 13ab99f6f7c3a8e4c992d7e451a50e6a, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 607055433}
+          m_TargetAssemblyTypeName: NextsceneTransition10, Assembly-CSharp
+          m_MethodName: nextscene
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1696053064
 GameObject:
   m_ObjectHideFlags: 0

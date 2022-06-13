@@ -45,6 +45,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene5/1-bridge 1.unity
     guid: ef2873c41f8e341e4ae1105443ad5334
   - enabled: 1
-    path: Assets/Scenes/Scene5/yard assets/yard with characters 1.unity
-    guid: 89eb910afc028494890241a57b3deaf6
+    path: Assets/Scenes/Scene5/3 game  ok.unity
+    guid: 475c81c7b94ea8944a3d5033ce7a66de
+  - enabled: 1
+    path: Assets/Scenes/Scene5/4-reunion with friends.unity
+    guid: c238e6fa7e30e4ac39d63a60093d55ad
+  - enabled: 1
+    path: Assets/Scenes/Scene5/5-bridge 2.unity
+    guid: 423b23b1d35044f3087723e1478c5fee
+  - enabled: 1
+    path: Assets/Scenes/Scene5/6-going down stairs.unity
+    guid: 1a755547caa6747c286b40e1cae41e9d
+  - enabled: 1
+    path: Assets/Scenes/Scene6/0-intro1.unity
+    guid: eefc9faaa2c2e4b3a9c61708aa8484d4
+  - enabled: 1
+    path: Assets/Scenes/Scene6/copy GameScene_DragDrop 1.unity
+    guid: 8ad1b5cd013fb43c4ad6e439cbf8c1f7
+  - enabled: 1
+    path: Assets/Scenes/Scene7/0-intro 1.unity
+    guid: 3881ae912aa21403b84289c6a7a18144
   m_configObjects: {}
