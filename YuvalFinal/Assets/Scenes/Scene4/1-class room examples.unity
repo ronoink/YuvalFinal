@@ -2671,7 +2671,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5688912037770582935, guid: ec138d4d449d648b48f800122ddf6c23, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5688912038001752611, guid: ec138d4d449d648b48f800122ddf6c23, type: 3}
       propertyPath: m_Name
@@ -5266,6 +5266,20 @@ PlayableDirector:
     value: {fileID: 1949640583}
   - key: {fileID: 4614744521964674262, guid: a55db2cb1531d4b3da5b01a175740e62, type: 2}
     value: {fileID: 358793656}
+  - key: {fileID: -5551644223840181464, guid: 033fc492d2fd7794c8453ccda9fe0b05, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 8037101184389165966, guid: 033fc492d2fd7794c8453ccda9fe0b05, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -7070124644176020705, guid: 033fc492d2fd7794c8453ccda9fe0b05, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3588327699635850761, guid: 033fc492d2fd7794c8453ccda9fe0b05, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1169101600724090834, guid: 033fc492d2fd7794c8453ccda9fe0b05, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 4614744521964674262, guid: 033fc492d2fd7794c8453ccda9fe0b05, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 6320399943108637204, guid: a55db2cb1531d4b3da5b01a175740e62, type: 2}
+    value: {fileID: 1822685785}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1822685787
