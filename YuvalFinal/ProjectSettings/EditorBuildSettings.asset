@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene0/intro video/introvideo.unity
     guid: 919cecde4c3bd4eef8cca4a26f026ec0
   - enabled: 1
-    path: Assets/Scenes/Scene1/fianl scene.unity
-    guid: 78653cb683da141c8aa7eacda7be53db
+    path: Assets/Scenes/Scene1/FirstScene 1.unity
+    guid: 89eed0a4ad8fa4a9284171360c3bef6d
   - enabled: 1
     path: Assets/Scenes/Scene2/SecondScene 1.unity
     guid: 90d9f0949a35e481e8e2c75f702961ea
@@ -68,4 +68,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene7/lecturer/final scene!.unity
     guid: 891f84a26c8154d089ea67e7598d2df7
+  - enabled: 1
+    path: Assets/Scenes/Scene7/3-end.unity
+    guid: 6449029fea8314e169bcca16de33bcfb
+  - enabled: 1
+    path: Assets/Scenes/Scene1/fianl scene.unity
+    guid: 78653cb683da141c8aa7eacda7be53db
   m_configObjects: {}
