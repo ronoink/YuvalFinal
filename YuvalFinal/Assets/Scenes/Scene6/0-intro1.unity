@@ -973,6 +973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 263967235}
   - component: {fileID: 263967234}
+  - component: {fileID: 263967236}
   m_Layer: 0
   m_Name: side_1
   m_TagString: Untagged
@@ -1045,6 +1046,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &263967236
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263967233}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &279257356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,6 +1309,10 @@ PlayableDirector:
     value: {fileID: 224110133}
   - key: {fileID: 7207413669970240470, guid: 2b0b685e3872346e293ef40289b5d499, type: 2}
     value: {fileID: 224110134}
+  - key: {fileID: 8465560745303299276, guid: 2b0b685e3872346e293ef40289b5d499, type: 2}
+    value: {fileID: 263967236}
+  - key: {fileID: 2847389464197767599, guid: 2b0b685e3872346e293ef40289b5d499, type: 2}
+    value: {fileID: 263967236}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &606840971
