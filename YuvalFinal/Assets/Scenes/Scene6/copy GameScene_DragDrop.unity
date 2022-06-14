@@ -1140,6 +1140,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1481399532689264632, guid: 6fd9b37eb9b1278479dafc0bc6210515, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481399532689264632, guid: 6fd9b37eb9b1278479dafc0bc6210515, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481399532689264632, guid: 6fd9b37eb9b1278479dafc0bc6210515, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -165.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481399532689264632, guid: 6fd9b37eb9b1278479dafc0bc6210515, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -358.4
+      objectReference: {fileID: 0}
     - target: {fileID: 1481399533335025283, guid: 6fd9b37eb9b1278479dafc0bc6210515, type: 3}
       propertyPath: m_Name
       value: GameHandler
