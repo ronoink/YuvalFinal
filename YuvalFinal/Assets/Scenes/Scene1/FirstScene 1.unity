@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.6, y: 7.3}
-  m_SizeDelta: {x: -30.38409, y: 0}
+  m_AnchoredPosition: {x: -2.3010216, y: 6.5}
+  m_SizeDelta: {x: -30.982048, y: -1.6000001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &24480582
 MonoBehaviour:
@@ -209,8 +209,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10.31
-  m_fontSizeBase: 10.31
+  m_fontSize: 10.29
+  m_fontSizeBase: 10.29
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1934,7 +1934,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1046597636
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1951,8 +1951,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 394.00003, y: -297.9999}
-  m_SizeDelta: {x: 214, y: 300}
+  m_AnchoredPosition: {x: 394.00003, y: -221.5}
+  m_SizeDelta: {x: 149, y: 162}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1046597637
 MonoBehaviour:
@@ -1974,7 +1974,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -722118508519918505, guid: f4ce30cbf719d4e7bbcada61fbf81561, type: 3}
+  m_Sprite: {fileID: 3364871317585886923, guid: f4ce30cbf719d4e7bbcada61fbf81561, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2193,7 +2193,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6e90b674468434094867fa3944079780, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2636,8 +2636,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.5, y: 5.1}
-  m_SizeDelta: {x: 10.07661, y: 7.8045}
+  m_AnchoredPosition: {x: -1.5, y: 3.393875}
+  m_SizeDelta: {x: 10.07661, y: 4.3922505}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1286998969
 MonoBehaviour:
@@ -2686,8 +2686,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.58
-  m_fontSizeBase: 20.58
+  m_fontSize: 17.7
+  m_fontSizeBase: 17.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3374,7 +3374,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7c93c7105c83343dfb9f3bfad4bf2e05, type: 3}
   - {fileID: 21300000, guid: 8dbe8d95fa9a348eb92d00bc9b0f2ff6, type: 3}
   - {fileID: 21300000, guid: 777989be40947724998b470007aaee9f, type: 3}
-  - {fileID: 21300000, guid: cdb3ef21ee87146168d690115d566a36, type: 3}
+  - {fileID: 21300000, guid: db441dd7f22225845bc3a999d999bbb6, type: 3}
 --- !u!1 &1469913957
 GameObject:
   m_ObjectHideFlags: 0
@@ -4681,6 +4681,10 @@ PrefabInstance:
     - target: {fileID: 9210388917639853630, guid: fc75e72a60250634d892449ebd4d65db, type: 3}
       propertyPath: m_Name
       value: Timer
+      objectReference: {fileID: 0}
+    - target: {fileID: 9210388917639853630, guid: fc75e72a60250634d892449ebd4d65db, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc75e72a60250634d892449ebd4d65db, type: 3}

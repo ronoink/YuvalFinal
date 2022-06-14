@@ -47,6 +47,7 @@ public class CollideGeneric : MonoBehaviour
       //   baloonPlayer.gameObject.SetActive(true);
       //  baloonAnimPlayer.GetComponent<Animator>().SetBool("BaloonStart" , true);
       //   playerStopanim.GetComponent<Animator>().SetBool("PlayerStopAnim" , true);
+      GetComponent<AudioSource>().Play ();
      }
 
         

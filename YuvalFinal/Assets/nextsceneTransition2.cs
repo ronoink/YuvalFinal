@@ -8,7 +8,7 @@ public class nextsceneTransition2 : MonoBehaviour
     void Start()
     {
         {
-            Invoke("nextscene", 3.7f);
+            Invoke("nextscene", 8.5f);
         }
     }
     

@@ -55,7 +55,7 @@ public class SpriteScript : MonoBehaviour
             animator.SetInteger("Direction", 4);
         }
 
-        scale();   
+       // scale();   
 
     }
 
