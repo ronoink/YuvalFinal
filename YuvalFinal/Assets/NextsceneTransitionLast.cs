@@ -6,6 +6,6 @@ public class NextsceneTransitionLast : MonoBehaviour
 {
     public void nextscene()
     { 
-        SceneManager.LoadScene(21);
+        SceneManager.LoadScene(0);
     }
 }
