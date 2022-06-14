@@ -838,6 +838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mood bar
       objectReference: {fileID: 0}
+    - target: {fileID: 7914533402924083281, guid: 38e8c52d49ec14dcdb14ba93f2f90740, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38e8c52d49ec14dcdb14ba93f2f90740, type: 3}
 --- !u!1001 &1329303224
