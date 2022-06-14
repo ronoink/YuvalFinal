@@ -34,6 +34,7 @@ public class Collide : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            GetComponent<AudioSource>().Play ();
             baloonCharacter.gameObject.SetActive(true);
             baloonAnim.GetComponent<Animator>().SetBool("BaloonStart" , true);
             print("collisionok");
